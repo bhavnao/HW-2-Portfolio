@@ -3,34 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="GA Tech Bootcamp Homework">
+       
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Home - Bhavna Jain</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <header> 
-        <h1> Bhavna</h1>
-    </header>
-    <main>
-        <section>
-            <h2> About Me</h2>
-            <div>
-                <p>  My name is Bhavna</p>
-            </div>
-        </section>
 
-        <section>
-            <h2>Work</h2>
-            <div class="container">
-                <a href="#"  class="flex-item" id="calculator" >
-                    <div>
-                        <h3>Calculator</h3>
-                    </div>
-                </a>
-                <a href="#"  class="flex-item" id="laptop">
-                    <h3> Laptop</h3>
-                </a>
-            </div>
-        </section>
-    </main>
+<body>
+  <header> 
+      <h1> Bhavna Jain</h1>
+      <nav>
+          <ul>
+              <li> <a href="#about-me">About Me</a></li>
+              <li> <a href="#my-projects">My Projects</a></li>   
+              <li> <a href="#contact-me">Contact Me</a></li>
+              <li> <a href="#resume">Resume</a></li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+    <Section class="flexbox flex-container" id="about-me">
+      <div class="flexbox flex-left">
+          <h2>About Me</h2>
+      </div>
+      <div class="flexbox flex-right">
+          <Article><p> My name is Bhavna Jain. I am currently a Georgia Tech Coding Bootcamp student. I am learning to become a full stack developer.
+              I love to read, solve multidimensional cubes, cooking, and listening to music.</p></Article>
+      </div>
+  </Section>
+
+  <Section class="flexbox flex-container" id="my-projects" >
+    <div class="flexbox flex-left">
+        <h2>My Projects</h2>
+    </div>
+    <div class="image-grid flexbox flex-right">
+      <img class="image-grid-col-2 image-grid-row-2" src="assets/images/matrix-g29e6033e8_1280.jpg" alt="Matrix"/>
+      <img class="image-grid-col-2-2 image-grid-row-2" src="assets/images/keyboard-g5a70ca9dc_1280.jpg" alt="Cog Wheels" />
+      <img class="image-grid-col-2-2 image-grid-row-2" src="assets/images/cinema-4d-g4ae28f28f_1280.jpg" alt="Cog Wheels" />
+      <img class="image-grid-col-2-2 image-grid-row-2" src="assets/images/cog-wheels-gf9029663e_640.jpg" alt="Cog Wheels" />
+      <img class="image-grid-col-2-2 image-grid-row-2" src="assets/images/apple-gcc3d418e1_1280.jpg" alt="Cog Wheels" />
+    </div>
+
+</section>
+
+<section class="flexbox flex-container" id="contact-me">
+  <div class="flexbox flex-left"> 
+      <h2>Contact Me</h2>
+  </div>
+  <div class="flexbox flex-right">
+   <nav>
+      <ul>
+          <li> <a href="#Phone">404.789.7022</a></li>
+          <li> <a href="#Email">bhavnaostwal@gmail.com</a></li>   
+          <li> <a href="#Github">Github</a></li>
+          <li> <a href="#Linkedin">Linkedin</a></li>
+          
+      </ul>
+   </nav>
+ </div>
+</section>
+
+
+
+
+  </main>
+
+
+
+
+
+
+
 </body>
+<footer class="page-footer">
+  <p>Copyright &#169; 2022 <a href="/">Bhavna Jain</a></p>
+  
+</footer>
 </html>
