@@ -14,5 +14,19 @@ To build a portfolio page to showcase your skills and talents to employers using
 * You should use the multiple features of CSS to make your page responsive to different media screen sizes, HTML tags should be semantic and should have accesibility.
 
  ## Screenshots
+ 
+ Top of the webpage
+ <img src="./assets/images/Screenshot_1.png"/>
+
+Middle of the webpage
+ <img src="./assets/images/Screenshot_2.png"/>
+
+Top of the webpage in mobile view
+ <img src="./assets/images/Screenshot_3.png"/>
+ 
+ Bottom of the webpage in mobile view
+ <img src="./assets/images/Screenshot_4.png"/>
+ 
 
  ## Link to the deployed application
+ https://bhavnao.github.io/HW-2-Portfolio/
